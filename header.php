@@ -17,18 +17,26 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<h1 class="text-white">Rolex</h1>
+		<!-- <h1 class="text-white">Rolex</h1> -->
+        <div>
+            <a href="index.php">
+            <img src='Assets/assets_landscape/official-retailer-plaque-en.png'>
+        </div>
 		<div class="mr-auto"></div>
             <ul class="text-white navbar-nav">
-                
+            
                 <li class="nav-item">
                     <a class="nav-link text-white" href="index.php">Home</a>
                 </li>
                     <li class="nav-item">
-                    <a class="nav-link text-white" href="" >All Items</a>
+                    <a class="nav-link text-white" onclick="load_data(6)">Daydate</a>
+                </li>
                 </li>
                     <li class="nav-item">
-                    <a class="nav-link text-white" href="">Daydate</a>
+                    <a class="nav-link text-white" onclick="load_data(4)">Date Just</a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" onclick="load_data(5)">Dayjust Pearl</a>
                 </li>
 
             </ul>   
